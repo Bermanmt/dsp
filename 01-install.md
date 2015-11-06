@@ -37,7 +37,10 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-Yes
+I installed Python 2 because I read the reviews and its the most stable version for the most part. Also I've read Python 3 has a lot of bugs still. 
+
+You can check the version by typing python --version on the console. Im currently running Python 2.7.10 :: Anaconda 2.3.0 (x86_64)
+
 
 ---
 
