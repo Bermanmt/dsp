@@ -49,7 +49,7 @@ Here's your first chance to practice this:
 
 What is your favorite [emoji](http://www.emoji-cheat-sheet.com/)?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+:smirk: My favorite emoji us the smirk. I love using it when I get away with a good joke. 
 
 ---
 
