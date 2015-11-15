@@ -63,6 +63,22 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will be using Sublime Text. I made my decision based on the fact that in the past I tried several text editors and I've found Sublime is the one that best adapts to my needs. I has a really easy to use user interface and it can customized to pretty much anything you need. Also, it gives me folder based view that helps me locate myself inside my project. 
+
+An interesting feature is the package control it has where I can install plugins easily. Also, the interface customization is really fun since you can make your editor look exactly like you want it. 
+
+Useful keyboard shortcuts: 
+CMD+d: It selects all the words that are the same as the one youre standing on with the cursor. It allows you to edit all of the words at once. So if you changed the name of a function or variable you just use this to select all of the instances and change them simultaneously. 
+
+CMD + / Toggles a comments on each line. Its helpful when I want to turn a line of code into a comment
+ALT+CMD+/ Comments a full block of code. 
+
+CMD+[ indents a full set of lines (CMD+] unindents a line)
+
+CMD + SHIFT + V pastes code alreay correctly indented. 
+
+To customize the "look" of the editor you can do it through themes which are easy to install. All you have to do is download the theme and save it in the "pakages" folder and then it will be available to use. Also, if you want to customize further you can do it in the "preferences" menu. 
+
+
 
 ---
