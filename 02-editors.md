@@ -31,7 +31,9 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I decided for VIM for two reasons: 
+1. I had already used it once before
+2. I've read that VIM is the more universal editor, so I decided to use it since I believe it will be better to apply to my carrer later. 
 
 ---
 
