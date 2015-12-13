@@ -77,6 +77,9 @@ CMD+[ indents a full set of lines (CMD+] unindents a line)
 
 CMD + SHIFT + V pastes code alreay correctly indented. 
 
+CMD + alt + 2 splits the screen in two so I can work with several files simultaneusly.
+
+
 To customize the "look" of the editor you can do it through themes which are easy to install. All you have to do is download the theme and save it in the "pakages" folder and then it will be available to use. Also, if you want to customize further you can do it in the "preferences" menu. 
 
 
