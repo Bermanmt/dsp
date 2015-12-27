@@ -43,7 +43,33 @@ def clean_up_title_column(data):
 	return data
 
 def get_unique_titles(data):
-	pass
+	cleanData = clean_up_title_column(data)
+	uniqueTitles = list(data['title'].unique())
+	uniqueTitlesJoined = ' '.join(uniqueTitles)
+	uniqueTitlesOnlyTitles = re.split(r' of Biostatistics',uniqueTitlesJoined)
+	uniqueTitlesOnlyTitles.pop()
+	finalTitleList = []
+	for title in uniqueTitlesOnlyTitles:
+		finalTitleList.append(title.lstrip())
+	counts = cleanData['title'].value_counts()
+	return {'counts': counts, 'titles':finalTitleList}
+
+#Code Question 3
+def get_emails(data):
+	return list(data['email'])
+
+#Code Question 4
+
+def get_email_domain_count(data):
+	emailList = list(data['email'].values)
+	strippedDomains=[]
+	for email in emailList: 
+		locate= re.search(r'@',email)
+		index= locate.end()
+		strippedDomains.append(email[index:])
+	strippedDomainsUnique = set(strippedDomains)
+	return list(strippedDomainsUnique)
+
 
 #Answers
 data = read_data('faculty.csv')
@@ -51,15 +77,47 @@ listOfUniqueDegrees = find_unique_degrees(data)
 countOfUniqueDegrees = len(listOfUniqueDegrees)
 frecuencyOfUniqueDegrees = find_frequency_of_degrees(data)
 
+uniqueTitles = get_unique_titles(data)
+listOfEmails = get_emails(data)
+
+emailDomains = get_email_domain_count(data)
+
 print('Question 1:')
 print '-'*30
-print 'There are a total of ' + str(countOfUniqueDegrees) + ' different degrees.' 
+print 'There are a total of %s different degrees.' %(countOfUniqueDegrees) 
+print
 print 'Each Degree Frecuency is: '
 for key, value in enumerate(frecuencyOfUniqueDegrees):
-	print value + ':' + str(frecuencyOfUniqueDegrees[value])
+	print value + ': ' + str(frecuencyOfUniqueDegrees[value])
 print 
 print('Question 2:')
 print '-'*30
+print 'There are a total of %s different titles on the list' %(len(uniqueTitles['titles']))
+print
+print 'The titles are: ' + ', '.join(uniqueTitles['titles'])
+print 
+print 'The frecuencies for each one of the titles are: '
+print
+print uniqueTitles['counts']
+print
+print('Question 3:')
+print '-'*30
+print
+print 'This is the complete list of emails in the document: '
+print
+print listOfEmails
+print
+print('Question 4:')
+print '-'*30
+print
+print 'There are a total of %s different email domains'%(len(emailDomains))
+print
+print 'The domain names are: ', emailDomains
+
+
+
+
+
 
 
 
