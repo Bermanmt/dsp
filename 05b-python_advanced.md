@@ -39,9 +39,9 @@ The titles are: Associate Professor, Professor, Assistant Professor
 
 The frecuencies for each one of the titles are: 
 
-Professor of Biostatistics              13
-Associate Professor of Biostatistics    12
-Assistant Professor of Biostatistics    12
+      Professor of Biostatistics              13
+      Associate Professor of Biostatistics    12
+      Assistant Professor of Biostatistics    12
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
@@ -93,9 +93,9 @@ faculty_dict = { 'Ellenberg': [\
 ```
 Print the first 3 key and value pairs of the dictionary:
 
-Putt :  [[' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']]
-Feng :  [[' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']]
-Bilker :  [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']]
+      Putt :  [[' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']]
+      Feng :  [[' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']]
+      Bilker :  [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']]
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
@@ -110,17 +110,17 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
-('Yimei', 'Li') :  [' Ph.D.', 'Assistant Professor of Biostatistics', 'liy3@email.chop.edu']
-('Hongzhe', 'Li') :  [' Ph.D', 'Professor of Biostatistics', 'hongzhe@upenn.edu']
-('Justine', 'Shults') :  [' Ph.D.', 'Professor of Biostatistics', 'jshults@mail.med.upenn.edu']
+      ('Yimei', 'Li') :  [' Ph.D.', 'Assistant Professor of Biostatistics', 'liy3@email.chop.edu']
+      ('Hongzhe', 'Li') :  [' Ph.D', 'Professor of Biostatistics', 'hongzhe@upenn.edu']
+      ('Justine', 'Shults') :  [' Ph.D.', 'Professor of Biostatistics', 'jshults@mail.med.upenn.edu']
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
 The first three key-value pairs of the array are:
 
-('Scarlett', 'Bellamy') :  [' Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']
-('Warren', 'Bilker') :  ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']
-('Matthew', 'Bryan') :  [' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']
+      ('Scarlett', 'Bellamy') :  [' Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']
+      ('Warren', 'Bilker') :  ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']
+      ('Matthew', 'Bryan') :  [' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
