@@ -28,7 +28,7 @@ There are 8 different degrees, the frecuency of each of the degrees is:
       PhD:31
       MPH:2
       MS:2
-      JD:1print
+      JD:1
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
