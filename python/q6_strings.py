@@ -21,7 +21,7 @@ def donuts(count):
     if count < 0:
         message = "The Number of Donuts has to be greater than cero"
         return message
-    elif count >10:
+    elif count >=10:
         return 'Number of donuts: many' 
     else:
         return 'Number of donuts: ' + str(count)
@@ -169,3 +169,56 @@ def front_back(a, b):
         b_back = b[(len(b)/2)+1:]
 
     return a_front+b_front+a_back+b_back
+
+print '-'*14
+print '--TEST CASES--'
+print '-'*14
+print
+print '--DONUTS--'
+print
+print donuts(4)
+print donuts(9)
+print donuts(10)
+print donuts(99)
+print
+print '--BOTH ENDS--'
+print
+print both_ends('spring')
+print both_ends('Hello')
+print both_ends('a')
+print both_ends('xyz')
+print
+print '--FIX START--'
+print
+print fix_start('babble')
+print fix_start('aardvark')
+print fix_start('google')
+print fix_start('donut') 
+print
+print '--MIX UP--'
+print
+print mix_up('mix', 'pod')
+print mix_up('dog', 'dinner')
+print mix_up('gnash', 'sport')
+print mix_up('pezzy', 'firm')
+print
+print '--VERBING--'
+print
+print verbing('hail')
+print verbing('swiming')
+print verbing('do')
+print
+print '--NOT BAD--'
+print
+print not_bad('This movie is not so bad')
+print not_bad('This dinner is not that bad!')
+print not_bad('This tea is not hot')
+print not_bad("It's bad yet not")
+print
+print '--FRONT BACK--'
+print
+print front_back('abcd', 'xy')
+print front_back('abcde', 'xyz')
+print front_back('Kitten', 'Donut')
+
+

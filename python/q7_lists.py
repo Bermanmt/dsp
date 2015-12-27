@@ -84,10 +84,11 @@ def remove_adjacent(nums):
     []
     """
     removed=[]
-    for i in range(len(nums)-1):
-        if nums[i]!=nums[i+1]:
-            removed.append(nums[i])
-    removed.append(nums[-1])
+    if nums != []:
+        for i in range(len(nums)-1):
+            if nums[i]!=nums[i+1]:
+                removed.append(nums[i])
+        removed.append(nums[-1])
     return removed
 
 
@@ -108,3 +109,38 @@ def linear_merge(list1, list2):
     mergedList = list1+list2
     mergedList.sort()
     return mergedList
+
+print '-'*14
+print '--TEST CASES--'
+print '-'*14
+print
+print '--MATCH ENDS--'
+print
+print match_ends(['aba', 'xyz', 'aa', 'x', 'bbb'])
+print match_ends(['', 'x', 'xy', 'xyx', 'xx'])
+print match_ends(['aaa', 'be', 'abc', 'hello'])
+print
+print '--FRONT X--'
+print
+print front_x(['bbb', 'ccc', 'axx', 'xzz', 'xaa'])
+print front_x(['ccc', 'bbb', 'aaa', 'xcc', 'xaa'])
+print front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
+print 
+print '--SORT LAST--'
+print
+print sort_last([(1, 3), (3, 2), (2, 1)])
+print sort_last([(2, 3), (1, 2), (3, 1)])
+print sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)])
+print 
+print '--REMOVE ADJACENT--'
+print
+print remove_adjacent([1, 2, 2, 3])
+print remove_adjacent([2, 2, 3, 3, 3])
+print remove_adjacent([3, 2, 3, 3, 3])
+print remove_adjacent([])
+print 
+print '--LINEAR MERGE--'
+print
+print linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc'])
+print linear_merge(['aa', 'xx'], ['bb', 'cc', 'zz'])
+print linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
