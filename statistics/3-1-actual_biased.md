@@ -52,4 +52,4 @@ If we plot both the Real PMF and the Biased PMF we will get something as follows
 
 This results in: 
 
-![Pmf_vs_Biased_pmf](/img/biased_pmf)
+![Pmf_vs_Biased_pmf](https://github.com/Bermanmt/dsp/blob/master/statistics/img/biased_pmf.png)
