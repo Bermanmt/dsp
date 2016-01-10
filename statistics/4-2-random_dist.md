@@ -25,11 +25,11 @@ Then we plot them:
 
 In this case, since the random() function generates floats between 0 and 1 we will obtain a lot of random numbers whos probability of repeating themselves is close to none. Therefore, when we create the PMF we get as a result a lot of numbers who's probability is 1/1000 since they never repeat themselves. So the resulting graph looks something like this:
 
-![pmf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-pmf1)
+![pmf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-pmf1.png)
 
 Once we plot the CDF we can see that the result is close to linear which tells us that the distribution is uniform:
 
-![cdf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-CDF1)
+![cdf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-CDF1.png)
 
 To make this even more clear, we can generate an array of random integers between 0 and 1000 that will have a chance of repeating themselves:
 
@@ -37,9 +37,9 @@ To make this even more clear, we can generate an array of random integers betwee
 
 If we do the same procedure as shown above, we get the following plots. For the PMF:
 
-![pmf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-pmf2)
+![pmf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-pmf2.png)
 
-![pmf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-cdf2)	
+![pmf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-cdf2.png)	
 
 
 As it can be seen, we get a pmf in which we can have probabilities higher than 1/1000 and we still obtain a straight line when whe plot the CDF which tells us that the distribution is uniform too. 
