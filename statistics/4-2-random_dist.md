@@ -29,7 +29,7 @@ In this case, since the random() function generates floats between 0 and 1 we wi
 
 Once we plot the CDF we can see that the result is close to linear which tells us that the distribution is uniform:
 
-![cdf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2-CDF1.png)
+![cdf of random numbers](https://github.com/Bermanmt/dsp/blob/master/statistics/img/4.2- CDF1.png)
 
 To make this even more clear, we can generate an array of random integers between 0 and 1000 that will have a chance of repeating themselves:
 
