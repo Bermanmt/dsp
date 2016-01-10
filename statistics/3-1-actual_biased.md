@@ -47,7 +47,7 @@ Now we can find de BiasPmf:
 If we plot both the Real PMF and the Biased PMF we will get something as follows:
 
 	thinkplot.PrePlot(2)
-	thinkplot.Pmfs([pmf, bias_pmf])
+	thinkplot.Pmf([pmf, bias_pmf])
 	thinkplot.Show()
 
 This results in: 
