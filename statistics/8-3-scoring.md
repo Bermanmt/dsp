@@ -36,7 +36,7 @@ To simulate more than one game:
 
 When we run the function for a lambda=2 we get this graph:
 
-![Many Game Simulation](https://github.com/Bermanmt/dsp/blob/master/statistics/img/gamesimulation.png)
+![Many Game Simulation](https://github.com/Bermanmt/dsp/blob/master/statistics/img/8.3-gamesimulation.png)
 
 and these results of the standard error and mean error: 
 
