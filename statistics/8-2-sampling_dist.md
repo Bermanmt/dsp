@@ -66,7 +66,7 @@ As the sample size (n) increases, the standard error decreases and the amplitude
 	thinkplot.Plot(*zip(*pairs))
 	thinkplot.Show(xlabel='Sample Size (n)', ylabel='Standard Error')
 
-Here we can see the graph of Samplse Size vs Standard Error: 
+Here we can see the graph of Sample Size vs Standard Error: 
 
 ![Sample Size vs Std Error](https://github.com/Bermanmt/dsp/blob/master/statistics/img/8.2-Stderr.png)
 
